@@ -1,5 +1,4 @@
 # Exploratory Data Analysis
-# Coursera
 # John Hopkins University
 
 # Jason R. Battles
