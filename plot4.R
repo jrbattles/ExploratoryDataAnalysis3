@@ -28,7 +28,7 @@ with(data, {
          ylab="Global Active Power (kilowatts)", xlab="")
     lines(Sub_metering_2~Datetime,col='Red')
     lines(Sub_metering_3~Datetime,col='Blue')
-    legend("topright", col=c("black", "red", "blue"), lty=1, lwd=2, bty="n",
+    legend("topright", col=c("black", "red", "blue"), lty=1, lwd=1, bty = "n", cex =.5,
            legend=c("Sub_metering_1", "Sub_metering_2", "Sub_metering_3"))
     plot(Global_reactive_power~Datetime, type="l", 
          ylab="Global Rective Power (kilowatts)",xlab="")
